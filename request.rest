@@ -1,0 +1,21 @@
+GET http://localhost:2001/user
+
+###
+
+POST http://localhost:2001/user
+Content-Type: application/json
+
+{
+    "username":"ichsans",
+    "password":"12332"
+}
+
+###
+POST http://localhost:2001/user/login
+Content-Type: application/json
+
+
+{
+    "username":"ichsans",
+    "password":"12332"
+}
